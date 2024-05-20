@@ -42,7 +42,7 @@ while True:
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
 ```
-## OUPUT
+## OUTPUT
 
 ![image](https://github.com/danishnicho7/2b_SLIDING_WINDOW_PROTOCOL/assets/145546601/93da198f-a03c-4eb4-ae37-a329ed6a867c)
 
